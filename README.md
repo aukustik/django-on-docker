@@ -1,4 +1,4 @@
-cd ~/django-on-docker
-sudo docker-compose -f docker-compose.prod.yml up -d --build
-sudo docker-compose -f docker-compose.prod.yml exec web python manage.py migrate --noinput
-sudo docker-compose -f docker-compose.prod.yml exec web python manage.py collectstatic --no-input --clear
+1. cd ~/django-on-docker
+2. sudo docker-compose -f docker-compose.prod.yml up -d --build
+3. sudo docker-compose -f docker-compose.prod.yml exec web python manage.py migrate --noinput
+4. sudo docker-compose -f docker-compose.prod.yml exec web python manage.py collectstatic --no-input --clear
