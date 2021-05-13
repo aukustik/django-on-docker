@@ -5,5 +5,7 @@
 !.vscode/extensions.json
 *.code-workspace
 app/upload/*
+*.pyc
+*.pyo
 # Local History for Visual Studio Code
 .history/
